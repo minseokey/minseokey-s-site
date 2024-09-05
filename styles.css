@@ -10,6 +10,9 @@ a {
     outline: none;
 }
 
+html{
+    overflow-x: clip;
+}
 a:visited {
     text-decoration: none;
     color: inherit; /* 방문한 링크의 색상도 부모 요소의 색상과 동일하게 */
@@ -21,6 +24,7 @@ body {
     line-height: 1.6;
     background: #f4f4f4;
     color: #333;
+    overflow-x: clip;
 }
 /* 다크 모드 스타일 */
 .dark-mode {
@@ -293,7 +297,7 @@ section {
 
 /* 기술 Section */
 #skills {
-    padding: 60px 20px;
+    padding: 60px 105px;
     background-color: #f9f9f9;
     margin: 20px 0;
 }
